@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Shopping Cart</title>
+</head>
+<body>
+    <section class="productContainer">
+        <h1>Ice Creams</h1>
+        <div id="product-1" class="product">
+            <img src="./Mango Icecream.webp" alt="">
+            <span>Mango Ice Cream</span>
+            <span>₹120</span>
+            <div class="buttonContainer">
+                <button type="button" class="positive1">+</button>
+                <p class="unit-1">0</p>
+                <button type="button" class="negative1">-</button>               
+            </div>
+        </div>
+        <hr>
+        <div id="product-2" class="product">
+            <img src="./Belgian Chocolate Icecream.webp" alt="">
+            <span><p>Belgian Chocolate</p> Ice Cream</span>
+            <span>₹70</span>
+            <div class="buttonContainer">
+                <button type="button" class="positive2">+</button>
+                <p class="unit-2">0</p>
+                <button type="button" class="negative2">-</button>               
+            </div>
+        </div>
+        <hr>
+        <div id="product-3" class="product">
+            <img src="./Kulfi Cup icecream.webp" alt="">
+            <span>Kulfi Cup Ice Cream</span>
+            <span>₹60</span>
+            <div class="buttonContainer">
+                <button type="button" class="positive3">+</button>
+                <p class="unit-3">0</p>
+                <button type="button" class="negative3">-</button>               
+            </div>
+        </div>
+    </section>
+
+    <section class="cart">
+        <h1>Cart</h1>
+        <p class="emptyCart">No Product added to the cart</p>
+        <div class="cartItem cartItem1 hidden">
+            <img src="./Mango Icecream.webp" alt="">
+            <span>Mango Ice Cream</span>
+            <span>
+                <span class="cart-1">0</span>
+                <span>x ₹120</span>
+            </span>
+        </div>
+        <div class="cartItem cartItem3 hidden">
+            <img src="./Belgian Chocolate Icecream.webp" alt="">
+            <span><p>Belgian Chocolate</p> Ice Cream</span>
+            <span>
+                <span class="cart-2">0</span>
+                <span>x ₹70</span>
+            </span>
+        </div>
+        <div class="cartItem cartItem3 hidden">
+            <img src="./Kulfi Cup icecream.webp" alt="">
+            <span>Kulfi Cup Ice Cream</span>
+            <span>
+                <span class="cart-3">0</span>
+                <span>x ₹60</span>
+            </span>
+        </div>
+        <div class="total hidden">
+            <span>Total :</span>
+            <span class="price">
+                <span>₹</span>
+                <span class="finalValue">0</span>
+            </span>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
