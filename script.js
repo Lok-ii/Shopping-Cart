@@ -16,7 +16,7 @@ let cartUnit3 = document.querySelector(".cart-3");
 let finalValue = document.querySelector(".finalValue");
 let total = document.querySelector(".total");
 
-let cartItem = document.querySelectorAll(".cartItem");
+let cartItem = document.querySelectorAll(".cartItemContainer");
 
 let emptyCart = document.querySelector(".emptyCart");
 

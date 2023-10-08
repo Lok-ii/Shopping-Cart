@@ -9,6 +9,14 @@
 <body>
     <section class="productContainer">
         <h1>Ice Creams</h1>
+        <div class="product">
+            <span></span>
+            <strong>Items</strong>
+            <strong>Price</strong>
+            <strong>Quantity</strong>
+            
+        </div>
+        <hr>
         <div id="product-1" class="product">
             <img src="./Mango Icecream.webp" alt="">
             <span>Mango Ice Cream</span>
@@ -46,29 +54,39 @@
     <section class="cart">
         <h1>Cart</h1>
         <p class="emptyCart">No Product added to the cart</p>
-        <div class="cartItem cartItem1 hidden">
-            <img src="./Mango Icecream.webp" alt="">
-            <span>Mango Ice Cream</span>
-            <span>
-                <span class="cart-1">0</span>
-                <span>x ₹120</span>
-            </span>
+        <div class="cartItemContainer cartItem1 hidden">
+            <hr>
+            <div class="cartItem cartItem1">
+                <img src="./Mango Icecream.webp" alt="">
+                <span>Mango Ice Cream</span>
+                <span>
+                    <span class="cart-1">0</span>
+                    <span>x ₹120</span>
+                </span>
+            </div>
+            <hr>
         </div>
-        <div class="cartItem cartItem3 hidden">
-            <img src="./Belgian Chocolate Icecream.webp" alt="">
-            <span><p>Belgian Chocolate</p> Ice Cream</span>
-            <span>
-                <span class="cart-2">0</span>
-                <span>x ₹70</span>
-            </span>
+        <div class="cartItemContainer cartItem2 hidden">
+            <div class="cartItem cartItem2">
+                <img src="./Belgian Chocolate Icecream.webp" alt="">
+                <span><p>Belgian Chocolate</p> Ice Cream</span>
+                <span>
+                    <span class="cart-2">0</span>
+                    <span>x ₹70</span>
+                </span>
+            </div>
+            <hr>
         </div>
-        <div class="cartItem cartItem3 hidden">
-            <img src="./Kulfi Cup icecream.webp" alt="">
-            <span>Kulfi Cup Ice Cream</span>
-            <span>
-                <span class="cart-3">0</span>
-                <span>x ₹60</span>
-            </span>
+        <div class="cartItemContainer cartItem3 hidden">
+            <div class="cartItem cartItem3">
+                <img src="./Kulfi Cup icecream.webp" alt="">
+                <span>Kulfi Cup Ice Cream</span>
+                <span>
+                    <span class="cart-3">0</span>
+                    <span>x ₹60</span>
+                </span>
+            </div>
+            <hr>
         </div>
         <div class="total hidden">
             <span>Total :</span>
@@ -77,6 +95,7 @@
                 <span class="finalValue">0</span>
             </span>
         </div>
+        <hr class="lastHr">
     </section>
 
     <script src="script.js"></script>
